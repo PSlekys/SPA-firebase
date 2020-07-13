@@ -1,0 +1,42 @@
+body {
+  background: #eee;
+}
+
+header {
+  background: #fff;
+}
+
+header img {
+  height: 40px;
+}
+
+.wrapper {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header > .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav > a {
+  color: #222;
+  text-decoration: none;
+}
+
+header nav > a:not(:last-child) {
+  margin-right: 10px;
+}
+
+header nav > a:hover {
+  text-decoration: underline;
+}
+
+main.wrapper {
+  background: #fff;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
